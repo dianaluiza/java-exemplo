@@ -1,0 +1,44 @@
+operador exemplo 01
+public class OperadorExemplo {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = -10;	// || = or ; && = and ; ^ = xor; 
+		boolean c = true;
+		boolean d = false;
+		System.out.println (~a);
+		System.out.println(~b);
+		System.out.println(!c);
+		System.out.println(!d);
+		
+	}
+
+}
+operador exp 02
+package basico1;
+import java.util.Scanner;
+
+public class operadorExemplo01 {
+
+	public static void main(String[] args) {
+		int a = 3;
+		int b = 4;
+		int c = 7;
+		System.out.println(!((a > b) && (a < c)));
+operador exemplo 03
+package basico1;
+
+public class operadorExemplo02 {
+	public static void main(String[] args) {
+		int a = 3;
+		int b = 4;
+		int c = 7;
+		
+		if(a++ >= b)
+		System.out.println(--c);
+		else
+		System.out.println(c++);
+	}
+
+}
+operador exp 04
+
